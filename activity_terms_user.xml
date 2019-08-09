@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="@drawable/tt"
+    android:layout_height="match_parent"
+    tools:context=".terms_user">
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="32dp"
+        android:textColor="#000"
+        android:background="#F8A7162B"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GUIDELINES" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_marginTop="40dp"
+        android:textSize="19dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginLeft="22dp"
+        android:gravity="center"
+        android:textColor="#000"
+        android:background="#31FFEBEE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This quiz contains multiple choice questions and answers of different subjects.You have to choose a subject of your interest and then you would be able to give test.Each question contains one marks for correct answer and there is no negative mark for wrong answer." />
+</LinearLayout>
